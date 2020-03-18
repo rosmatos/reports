@@ -16,7 +16,7 @@ export IDWALL_TOKEN="YOUR_TOKEN_HERE"
 Once you have installed and setup docker and/or docker-compose, access the project directory from a terminal 
 and you will can run the tests in two ways: 
 
-2. Using docker-compose: 
+1. Using docker-compose: 
 First, confirm that your docker-compose.yml file is ok, running the following command:
 
 ```
@@ -37,3 +37,5 @@ $ docker-compose up
 ```
 $ docker run -it --rm --name reports -v "$PWD":"$PWD" -v "$HOME"/.m2:/root/.m2 -w $PWD maven:3 mvn test  -DidwallToken="${IDWALL_TOKEN}"
 ```
+## Report
+To see the test report, you just need open the target/cucumber/cucumber-report.html in a browser.
