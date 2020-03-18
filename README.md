@@ -17,6 +17,7 @@ Once you have installed and setup docker and/or docker-compose, access the proje
 and you will can run the tests in two ways: 
 
 1. Using docker-compose: 
+
 First, confirm that your docker-compose.yml file is ok, running the following command:
 
 ```
