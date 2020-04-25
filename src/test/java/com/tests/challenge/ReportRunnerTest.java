@@ -1,4 +1,4 @@
-package com.idwall.tests.challenge;
+package com.tests.challenge;
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
