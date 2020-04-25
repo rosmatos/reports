@@ -1,4 +1,4 @@
-package com.idwall.tests.challenge;
+package com.tests.challenge;
 import io.restassured.response.Response;
 import org.awaitility.Awaitility;
 import java.util.Objects;

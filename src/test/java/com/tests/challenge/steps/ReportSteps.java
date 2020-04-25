@@ -1,6 +1,6 @@
-package com.idwall.tests.challenge.steps;
+package com.tests.challenge.steps;
 
-import com.idwall.tests.challenge.ReportsRequestsManager;
+import com.tests.challenge.ReportsRequestsManager;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

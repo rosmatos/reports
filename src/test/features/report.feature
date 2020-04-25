@@ -1,4 +1,4 @@
-Feature: I, as a idwall report api provider, need provide differents types of reports and informations with different font combinations and validations to my clients.
+Feature: I, as a report api provider, need provide differents types of reports and informations with different font combinations and validations to my clients.
 
   Scenario: API must return Bad Request error when receives empty data
     Given a POST request to endpoint "/relatorios" with empty data are sent

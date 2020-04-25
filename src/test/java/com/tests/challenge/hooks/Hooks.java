@@ -1,4 +1,4 @@
-package com.idwall.tests.challenge.hooks;
+package com.tests.challenge.hooks;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
